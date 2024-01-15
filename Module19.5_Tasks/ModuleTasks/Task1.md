@@ -4,7 +4,7 @@ Write a JavaScript loop (using either for or while) to traverse the given array 
 
 **Input:**
 <br>
-const values = [6, 8, 2, 4, 10];
+var values = [6, 8, 2, 4, 10];
 
 **Output:**
 
@@ -13,11 +13,11 @@ const values = [6, 8, 2, 4, 10];
 
 **Solution**
 <br>
-const values = [6, 8, 2, 4, 10];
+var values = [6, 8, 2, 4, 10];
 <br>
-let summation = 0;
+var summation = 0;
 
-    for (let i = 0; i < values.length; i++) {
+    for (var i = 0; i < values.length; i++) {
         summation += values[i];
     }
 

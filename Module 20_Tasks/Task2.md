@@ -4,7 +4,7 @@ Write a JavaScript function called `calculateAverage` that takes multiple parame
 
 **Input:**
 <br>
-`const averageScore = calculateAverage(75.25, 92, 88);`
+`var averageScore = calculateAverage(75.25, 92, 88);`
 
 **Output:**
 
@@ -13,12 +13,12 @@ Write a JavaScript function called `calculateAverage` that takes multiple parame
 
 **Solution**
 <br>
-const values = [6, 8, 2, 4, 10];
+var values = [6, 8, 2, 4, 10];
 <br>
 
     function calculateAverage(m1, m2, m3) {
-      let totalMarks = m1 + m2 + m3;
-      const averageScore = totalMarks / 3;
+      var totalMarks = m1 + m2 + m3;
+      var averageScore = totalMarks / 3;
       return parseFloat(averageScore.toFixed(2)); // Round to two decimal places
     }
 

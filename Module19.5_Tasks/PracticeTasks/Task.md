@@ -3,7 +3,7 @@
 Write a JavaScript code to reverse the array colors `without using the reverse method`.
 
 **Input:**
-`const colors = ['red', 'blue', 'green', 'yellow', 'orange']`
+`var colors = ['red', 'blue', 'green', 'yellow', 'orange']`
 
 **Output:**
 
@@ -19,7 +19,7 @@ Write a JavaScript code to reverse the array colors `without using the reverse m
 Write a JavaScript code to reverse the array colors `using the reverse method`.
 
 **Input:**
-`const animals = ['lion', 'tiger', 'elephant', 'zebra', 'giraffe'];`
+`var animals = ['lion', 'tiger', 'elephant', 'zebra', 'giraffe'];`
 
 **Output:**
 
@@ -35,7 +35,7 @@ Write a JavaScript code to reverse the array colors `using the reverse method`.
 Write JavaScript code to `without using the sort method` to sort the numbers array in ascending order.
 
 **Input:**
-`const numbers = [13, 7, 2, 9, 4]`
+`var numbers = [13, 7, 2, 9, 4]`
 
 **Output:**
 

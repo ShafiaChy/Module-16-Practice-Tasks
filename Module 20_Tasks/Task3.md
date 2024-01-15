@@ -4,9 +4,9 @@ Write a JavaScript function called `sumArray` that takes an array of numbers as 
 
 **Input:**
 <br>
-`const numbers = [1, 2, 3, 4, 5];`
+`var numbers = [1, 2, 3, 4, 5];`
 <br>
-`const arraySum = sumArray(numbers);`
+`var arraySum = sumArray(numbers);`
 
 **Output:**
 <br>
@@ -17,9 +17,9 @@ Write a JavaScript function called `sumArray` that takes an array of numbers as 
 <br>
 
     function sumArray(numbers) {
-    let total = 0;
+    var total = 0;
 
-        for (let i = 0; i < numbers.length; i++) {
+        for (var i = 0; i < numbers.length; i++) {
             total += numbers[i];
         }
 
@@ -28,6 +28,6 @@ Write a JavaScript function called `sumArray` that takes an array of numbers as 
     }
 
 <br>
-const arraySum = sumArray(numbers);
+var arraySum = sumArray(numbers);
 <br>
 console.log(arraySum);

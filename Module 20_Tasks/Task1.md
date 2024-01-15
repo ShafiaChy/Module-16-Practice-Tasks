@@ -4,7 +4,7 @@ Write a JavaScript function called `calculateArea` that takes `two parameters` r
 
 **Input:**
 <br>
-`const rectangleArea = calculateArea(5, 8);`
+`var rectangleArea = calculateArea(5, 8);`
 
 **Output:**
 
@@ -18,5 +18,5 @@ Write a JavaScript function called `calculateArea` that takes `two parameters` r
         return length * width;
     }
 
-const rectangleArea = calculateArea(5, 8);
+var rectangleArea = calculateArea(5, 8);
 console.log(rectangleArea);

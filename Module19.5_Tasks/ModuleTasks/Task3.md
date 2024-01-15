@@ -4,7 +4,7 @@ Write a JavaScript code to sort the array numbers without using the sort method.
 
 **Input:**
 <br>
-`const numbers = [8, 4, 15, 3, 10];`
+`var numbers = [8, 4, 15, 3, 10];`
 
 **Output:**
 <br>
@@ -15,15 +15,15 @@ Write a JavaScript code to sort the array numbers without using the sort method.
 **Solution:**
 <br>
 
-    const numbers = [8, 4, 15, 3, 10];
+    var numbers = [8, 4, 15, 3, 10];
 
 <br>
 
-    for (let i = 0; i < numbers.length - 1; i++) {
-    for (let j = 0; j < numbers.length - 1 - i; j++) {
+    for (var i = 0; i < numbers.length - 1; i++) {
+    for (var j = 0; j < numbers.length - 1 - i; j++) {
     if (numbers[j] > numbers[j + 1]) {
 
-          const temp = numbers[j];
+          var temp = numbers[j];
           numbers[j] = numbers[j + 1];
           numbers[j + 1] = temp;
         }
@@ -41,7 +41,7 @@ Write JavaScript code to use the sort method to sort the numbers array in `desce
 
 **Input:**
 <br>
-`const numbers = [5, 9, 10, 12, 1];`
+`var numbers = [5, 9, 10, 12, 1];`
 
 **Output:**
 <br>
@@ -54,8 +54,8 @@ Write JavaScript code to use the sort method to sort the numbers array in `desce
 **Solution:**
 <br>
 
-        const numbers = [5, 9, 10, 12, 1];
-        const sortedNumbers = numbers.slice().sort((a, b) => b - a);
+        var numbers = [5, 9, 10, 12, 1];
+        var sortedNumbers = numbers.slice().sort((a, b) => b - a);
 
 console.log("Original array:", numbers);
 <br>

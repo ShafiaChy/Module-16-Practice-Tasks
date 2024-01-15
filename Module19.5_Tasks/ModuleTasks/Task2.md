@@ -4,7 +4,7 @@ Write a JavaScript loop (using either for or while) to reverse the array `origin
 
 **Input:**
 <br>
-`const values = [5, 9, 14, 8, 3]`
+`var values = [5, 9, 14, 8, 3]`
 
 **Output:**
 <br>
@@ -14,13 +14,13 @@ Write a JavaScript loop (using either for or while) to reverse the array `origin
 
 **Solution:**
 <br>
-const originalArray = [5, 9, 14, 8, 3];
+var originalArray = [5, 9, 14, 8, 3];
 <br>
-const reversedArray = [];
+var reversedArray = [];
 <br>
 <br>
 
-    for (let i = originalArray.length - 1; i >= 0; i--) {
+    for (var i = originalArray.length - 1; i >= 0; i--) {
       reversedArray.push(originalArray[i]);
     }
 
@@ -36,7 +36,7 @@ Write JavaScript code to use the reverse method to reverse the order of elements
 
 **Input:**
 <br>
-`const wordArray = ['apple', 'banana', 'cherry', 'date'];`
+`var wordArray = ['apple', 'banana', 'cherry', 'date'];`
 
 **Output:**
 <br>
@@ -50,7 +50,7 @@ Write JavaScript code to use the reverse method to reverse the order of elements
 const wordArray = ['apple', 'banana', 'cherry', 'date'];
 <br>
 
-    const reversedArray = wordArray.slice().reverse();
+    var reversedArray = wordArray.slice().reverse();
 
 <br>
 
