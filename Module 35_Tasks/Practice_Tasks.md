@@ -48,6 +48,7 @@ Note: <i>you can use an api of your choice</i>
 
 <br>
 
+
 **Output:**
 <br>
 Two SQL tables sit at the bar. A query approaches and asks "Can I join you?"
